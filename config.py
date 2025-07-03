@@ -1,4 +1,4 @@
 import os
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'senha123:)'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'super-secret-key'
